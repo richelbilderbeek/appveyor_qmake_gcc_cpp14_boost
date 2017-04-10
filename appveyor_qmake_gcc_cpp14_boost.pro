@@ -10,4 +10,6 @@ CONFIG += c++14
 QMAKE_CXXFLAGS += -std=c++14
 
 # Boost
-INCLUDEPATH += C:\Libraries\boost_1_63_0
+win32 {
+  INCLUDEPATH += C:\Libraries\boost_1_63_0
+}

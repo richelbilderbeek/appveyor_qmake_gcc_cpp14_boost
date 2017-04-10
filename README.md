@@ -21,8 +21,8 @@ More complex builds:
 
 Builds of similar complexity:
 
- * [...]
+ * Use Travis: [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost) [travis_qmake_gcc_cpp14_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost) 
 
 Less complex builds:
 
- * No `qmake`: [![Build status](https://ci.appveyor.com/api/projects/status/r0c3wnwin26yvfto/branch/master?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/appveyor-gcc-cpp14/branch/master) [appveyor_gcc_cpp14](https://www.github.com/richelbilderbeek/appveyor_gcc_cpp14)
+ * No `Boost`: [![Build status](https://ci.appveyor.com/api/projects/status/8otskad85edx7m4m/branch/master?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/appveyor-qmake-gcc-cpp14/branch/master) [appveyor_gcc_cpp14](https://www.github.com/richelbilderbeek/appveyor_qmake_gcc_cpp14)
