@@ -1,6 +1,6 @@
-# appveyor_qmake_gcc_cpp14
+# appveyor_qmake_gcc_cpp14_boost
 
-[![Build status](https://ci.appveyor.com/api/projects/status/8otskad85edx7m4m/branch/master?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/appveyor-qmake-gcc-cpp14/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/smdyia4iojoju3ny/branch/master?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/appveyor-qmake-gcc-cpp14-boost/branch/master)
 
 This GitHub is part of:
 
@@ -11,7 +11,7 @@ The goal of this project is to have a clean AppVeyor build, with specs:
  * Build system: `qmake`
  * C++ compiler: `gcc`
  * C++ version: `C++14`
- * Libraries: `STL` only
+ * Libraries: `STL` and Boost
  * Code coverage: none
  * Source: one single file, `main.cpp`
 

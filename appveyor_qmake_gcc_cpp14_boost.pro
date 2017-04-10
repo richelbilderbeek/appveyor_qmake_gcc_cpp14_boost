@@ -1,7 +1,9 @@
 SOURCES += main.cpp
 
 # Compile with high warning levels, a warning is an error
-QMAKE_CXXFLAGS += -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Werror
+# -Weffc++ does not work
+# -Wshadow does not work
+QMAKE_CXXFLAGS += -Wall -Wextra -Wnon-virtual-dtor -pedantic -Werror
 
 # C++14
 CONFIG += c++14
