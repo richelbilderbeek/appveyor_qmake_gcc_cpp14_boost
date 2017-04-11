@@ -12,6 +12,8 @@ QMAKE_CXXFLAGS += -std=c++14
 # Boost
 win32 {
   INCLUDEPATH += C:\Libraries\boost_1_63_0
-  LIBS += -LC:\Libraries\boost_1_63_0\lib
+  LIBS += "C:/boost_1_63_0/stage/lib/libboost_date_time-mgw48-1_63.a"
 }
-LIBS += -lboost_date_time
+unix {
+  LIBS += -lboost_date_time
+}
