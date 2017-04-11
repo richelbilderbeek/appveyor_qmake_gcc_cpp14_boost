@@ -8,6 +8,15 @@ install:
   - set PATH=%PATH%;C:\Libraries\boost_1_63_0
 
 build_script:
+  # Some exploration
+  - C:\
+  - dir
+  - cd boost_1_63_0
+  - dir
+  - cd stage
+  - dir
+  - cd lib
+  - dir
   - qmake
   - mingw32-make
   - cd release
