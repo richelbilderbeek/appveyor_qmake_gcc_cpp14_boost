@@ -17,7 +17,7 @@ The goal of this project is to have a clean AppVeyor build, with specs:
 
 More complex builds:
 
- * [...]
+ * Add `Qt5`: [appveyor_qmake_gcc_cpp14_boost_qt5](https://www.github.com/richelbilderbeek/appveyor_qmake_gcc_cpp14_boost_qt5) 
 
 Builds of similar complexity:
 
