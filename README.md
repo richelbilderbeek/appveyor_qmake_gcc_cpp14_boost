@@ -1,6 +1,9 @@
 # appveyor_qmake_gcc_cpp14_boost
 
-[![Build status](https://ci.appveyor.com/api/projects/status/smdyia4iojoju3ny/branch/master?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/appveyor-qmake-gcc-cpp14-boost/branch/master)
+branch|[![AppVeyor CI logo](AppVeyor.png)](https://ci.appveyor.com)
+---|---
+master|[![Build status](https://ci.appveyor.com/api/projects/status/smdyia4iojoju3ny/branch/master?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/appveyor-qmake-gcc-cpp14-boost/branch/master)
+develop|[![Build status](https://ci.appveyor.com/api/projects/status/smdyia4iojoju3ny/branch/develop?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/appveyor-qmake-gcc-cpp14-boost/branch/develop)
 
 This GitHub is part of:
 
