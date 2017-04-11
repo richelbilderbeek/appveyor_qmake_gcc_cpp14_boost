@@ -9,18 +9,18 @@ install:
 
 build_script:
   # Some exploration
-  - cd ..
-  - dir
-  - cd ..
-  - dir
-  - cd Libraries
-  - dir
-  - cd boost_1_63_0
-  - dir
-  - cd stage
-  - dir
-  - cd lib
-  - dir
+  #- cd ..
+  #- dir
+  #- cd ..
+  #- dir
+  #- cd Libraries
+  #- dir
+  #- cd boost_1_63_0
+  #- dir
+  #- cd stage
+  #- dir
+  #- cd lib
+  #- dir
   - qmake
   - mingw32-make
   - cd release
