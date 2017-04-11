@@ -13,3 +13,4 @@ QMAKE_CXXFLAGS += -std=c++14
 win32 {
   INCLUDEPATH += C:\Libraries\boost_1_63_0
 }
+LIBS += -lboost_date_time

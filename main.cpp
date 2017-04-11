@@ -1,13 +1,20 @@
-#include <boost/graph/adjacency_list.hpp>
+#include <iostream>
+#include <boost/date_time/posix_time/posix_time.hpp>
+#include <boost/date_time/local_time_adjustor.hpp>
+#include <boost/date_time/c_local_time_adjustor.hpp>
 
 auto f() noexcept
 {
-  boost::adjacency_list<> g;
-  boost::add_vertex(g);
-  return boost::num_vertices(g);
+  std::stringstream s;
+  return boost::posix_time::to_simple_string(
+    boost::posix_time::ptime(
+      boost::gregorian::day_clock::universal_day(),
+      boost::posix_time::second_clock::universal_time().time_of_day()
+    )
+  );
 }
 
 int main() 
 {
-  if (f() != 1) return 1;
+  std::cout << f() << '\n';
 }
