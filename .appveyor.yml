@@ -13,7 +13,8 @@ build_script:
   - dir
   - cd ..
   - dir
-  - cd ..
+  - cd Libraries
+  - dir
   - cd boost_1_63_0
   - dir
   - cd stage
