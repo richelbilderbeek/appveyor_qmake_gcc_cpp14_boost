@@ -9,8 +9,11 @@ install:
 
 build_script:
   # Some exploration
-  - C:
+  - cd ..
   - dir
+  - cd ..
+  - dir
+  - cd ..
   - cd boost_1_63_0
   - dir
   - cd stage
