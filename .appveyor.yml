@@ -9,18 +9,24 @@ install:
 
 build_script:
   # Some exploration
+  # C:\projects\appveyor-qmake-gcc-cpp14-boost
   - cd ..
+  # C:\projects
   - dir
   - cd ..
+  # C:\
   - dir
   - cd Libraries
+  # C:\Libraries
   - dir
   - cd boost_1_63_0
+  # C:\Libraries\boost_1_63_0
+  - dir
+  - cd libs
+  # C:\Libraries\boost_1_63_0\libs
   - dir
   #- cd stage
   #- dir
-  - cd lib
-  - dir
   - qmake
   - mingw32-make
   - cd release
