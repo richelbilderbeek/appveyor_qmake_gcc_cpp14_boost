@@ -18,7 +18,7 @@ win32 {
   #LIBS += "C:\Libraries\boost_1_63_0\lib32-msvc-14.0\libboost_date_time-vc140-mt-sgd-1_63.lib"
   #LIBS += "C:\Libraries\boost_1_63_0\lib32-msvc-14.0\libboost_date_time-vc140-s-1_63.lib"
   #LIBS += "C:\Libraries\boost_1_63_0\lib32-msvc-14.0\libboost_date_time-vc140-sgd-1_63.lib"
-  LIBS += -L"C:\Libraries\boost_1_63_0\lib32-msvc-14.0
+  LIBS += -L"C:\Libraries\boost_1_63_0\lib32-msvc-14.0"
   LIBS += -lboost_date_time
 }
 unix {
