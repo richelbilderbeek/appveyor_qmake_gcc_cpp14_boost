@@ -20,10 +20,10 @@ build_script:
   # C:\Libraries
   - dir
   - cd boost_1_63_0
+  #- dir /s libboost*
   # C:\Libraries\boost_1_63_0
   - dir
   - cd boost
-  - dir /s libboost*
   # C:\Libraries\boost_1_63_0\boost
   - dir
   # Done!
